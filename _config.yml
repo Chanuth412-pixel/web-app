@@ -1,0 +1,14 @@
+# Site settings
+title: [Making a web-application]
+description: [A short description of your self-healing app and its journey]
+baseurl: "/[repository-name]" # Only for Project Sites (Option A). Leave as "" for User Sites (Option B).
+url: "https://[your-username].github.io" # Or your custom domain
+
+# Theme settings - CHOOSE ONE
+theme: jekyll-theme-cayman # Simple, clean theme
+# OR
+# remote_theme: pages-themes/minimal # Another popular theme for documentation
+
+plugins:
+  - jekyll-feed
+  - jekyll-remote-theme # Only needed if you use 'remote_theme'
